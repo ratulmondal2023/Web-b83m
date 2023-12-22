@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$pappu:rgb(23, 8, 162);
+$stroke:rgb(17, 4, 4);
+
+.coco {
+    color: $pappu;
+    font-size: 45px;
+    -webkit-text-stroke: 1px;
+    font-weight: 900;
+}
+.dip {
+    @extend .coco;
+}
